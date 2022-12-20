@@ -1,0 +1,545 @@
+body
+{
+    background-repeat: no-repeat;
+    background-image: url(./shara\ desert.jpg);
+}
+#child1
+{
+    display: inline;
+    position: absolute;
+    margin-left: 1100px;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    border-color: white;
+}
+#child2
+{
+    display: inline;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 1190px;
+    margin-top: 50px;
+
+    color: white;
+    border-color: white;
+}
+#child3
+{
+    display: inline;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 1300px;
+    color: white;
+    border-color: white;
+}
+#logo img
+{
+    display: inline;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 70px;
+    width: 75px;
+}
+#headingandpara h1
+{
+    font-size: 120px;
+    position: absolute;
+    color: white;
+    border-color: white;
+    margin-left: 150px;
+    margin-top: 330px;
+}
+#headingandpara p
+{
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    border-color: white;
+    margin-left: 150px;
+    margin-top: 500px;  
+}
+#but
+{
+    margin-top: 600px;
+    margin-left: 200px;  
+}
+#ex
+{
+    border: 2px solid white;
+    border-color: rgb(255, 254, 254);
+    position: absolute;
+    width:350px;
+    color: black;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px; 
+}
+#one
+{   
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 150px;
+    height: 150px;
+    margin-left: 925px;
+    margin-top: 225px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#two
+{
+ 
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 1200px;
+    margin-top: 225px;
+    background-image: url(./pic-2.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+#three
+{
+
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 150px;
+    height: 150px;
+    background-image: url(./pic-3.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    margin-left: 925px;
+    margin-top: 425px;
+    position: absolute;
+    border-radius: 25px;
+    overflow: hidden;
+   
+}
+#four
+{
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 150px;
+    height: 150px;
+    background-image: url(./pic-4.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    margin-left: 1200px;
+    margin-top: 425px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: absolute;
+}
+#one:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#two:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#three:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#four:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#oneb
+{
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: ;
+    color: white;
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-image: url(./pic-1.png);
+    background-size: 150px 150px;
+    border: 2px solid rgba(122, 116, 116, 0.092);
+}
+#hamburger
+{
+    display: inline;
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 1400px;
+}
+#twob
+{
+color: white;
+font-size: 30px;
+margin-left: 15px;
+margin-top: -10px;
+}
+#threeb
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 80px;
+}
+#fourb
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+@media (max-width:540px) 
+/* changes that should be seen in the mobile view */
+{
+    body
+{
+    background-repeat: no-repeat;
+    background-image: url(./shara\ desert.jpg);
+}
+#headingandpara h1 
+ {
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    border-color: white;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+#ex
+{
+    border: 2px solid white;
+    border-color: rgb(255, 254, 254);
+    position: absolute;
+    width:220px;
+    margin-left: -100px;
+    margin-top: -300px;
+    color: black;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px; 
+}
+#logo img
+{
+    display: inline;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 70px;
+    width: 75px;
+}
+#headingandpara p
+{
+    font-size: 15px;
+    position: absolute;
+    color: white;
+    border-color: white;
+    margin-left: 50px;
+    margin-top: 215px;  
+}
+#child1
+{
+    display: inline;
+    position: absolute;
+    margin-left: 350px;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    border-color: white;
+}
+#child2
+{
+    display: inline;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 70px;
+
+    color: white;
+    border-color: white;
+}
+#child3
+{
+    display: inline;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 90px;
+    margin-left: 350px;
+    color: white;
+    border-color: white;
+}
+#hamburger
+{
+    display: inline;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 425px;
+}
+#one
+{   
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 150px;
+    height: 150px;
+    margin-left: 125px;
+    margin-top: 425px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: absolute;
+}
+#one:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#two
+{
+ 
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 125px;
+    margin-top: 670px;
+    background-image: url(./pic-2.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+#three
+{
+
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 150px;
+    height: 150px;
+    background-image: url(./pic-3.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    margin-left: 125px;
+    margin-top: 925px;
+    position: absolute;
+    border-radius: 25px;
+    overflow: hidden;
+   
+}
+#four
+{
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 150px;
+    height: 150px;
+    background-image: url(./pic-4.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    margin-left: 125px;
+    margin-top: 1125px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: absolute;
+}
+#two:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#three:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#four:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+}
+@media (min-width:541px) and (max-width:912px)
+/* changes that should be seen on ipad */
+{
+    #headingandpara p
+    {
+        font-size: 15px;
+        position: absolute;
+        color: white;
+        border-color: white;
+        margin-left: 50px;
+        margin-top: 250px;  
+    }
+    #headingandpara h1 
+ {
+    font-size: 80px;
+    position: absolute;
+    color: white;
+    border-color: white;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+#ex
+{
+    border: 2px solid white;
+    border-color: rgb(255, 254, 254);
+    position: absolute;
+    width:200px;
+    margin-left: -100px;
+    margin-top: -300px;
+    color: black;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px; 
+}
+#child1
+{
+    display: inline;
+    position: absolute;
+    margin-left: 450px;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    border-color: white;
+}
+#child2
+{
+    display: inline;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 50px;
+
+    color: white;
+    border-color: white;
+}
+#child3
+{
+    display: inline;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 650px;
+    color: white;
+    border-color: white;
+}
+#hamburger
+{
+    display: inline;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 740px;
+}
+#one
+{   
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 350px;
+    height: 150px;
+    margin-left: 325px;
+    margin-top: 390px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#one:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#oneb
+{
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: ;
+    color: white;
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-image: url(./pic-1.png);
+    background-size: 350px 250px;
+    border: 2px solid rgba(122, 116, 116, 0.092);
+}
+#two
+{
+ 
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 350px;
+    height: 150px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 325px;
+    margin-top: 555px;
+    background-image: url(./pic-2.png);
+    background-size: 350px 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#twob
+{
+color: white;
+font-size: 30px;
+margin-left: 50px;
+margin-top: 25px;
+}
+#two:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#three:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#four:hover
+{
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+#threeb
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 80px;
+}
+#fourb
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+#three
+{
+
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 350px;
+    height: 150px;
+    background-image: url(./pic-3.png);
+    background-size: 350px 150px;
+    background-repeat: no-repeat;
+    margin-left: 325px;
+    margin-top: 735px;
+    position: absolute;
+    border-radius: 25px;
+    overflow: hidden;
+   
+}
+#four
+{
+    border: 2px solid rgba(172, 172, 172, 0);
+    width: 350px;
+    height: 150px;
+    background-image: url(./pic-4.png);
+    background-size: 350px 150px;
+    background-repeat: no-repeat;
+    margin-left: 325px;
+    margin-top: 925px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: absolute;
+}
+}
